@@ -78,7 +78,6 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom: 10px;
 }
-
 .footer-content{
     text-align: center;
 }
@@ -91,6 +90,52 @@ body{
     color: #fff;
     font-size: 12px;
 }
+
+      /*----- subscribe ----*/
+	 
+.sub-btn{
+	width:35%;
+	height:40px;
+	padding:7px 103px 3px 3px;
+	overflow:hidden;
+	position:relative;
+    border-bottom: 2px solid #76422e;
+    text-align: start;
+    margin: 20px auto;
+    padding-bottom: 30px;
+}
+.sub-btn button{
+	position:absolute;
+	top:3px;
+	right:15px;
+	height:100%;
+	color: #76422e;
+    background-color: #C95529;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+	border-radius:25px;
+}
+.sub-btn #email{
+	border:none;
+	height:30px;
+	width:90%;
+	padding:0 6px 0 6px;
+    background-color: #C95529;
+    
+}
+::placeholder{
+	color: #76422e;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
 
 .contact h2{
     color:#fff;
@@ -127,10 +172,11 @@ body{
    font-size: 12px;
    display: inline-block;
    border: 1px solid #fff;
-   padding: 10px 10px;
+   width: 31px;
+   height: 31px;
+   line-height: 31px;
+   margin-right: 10px;
    border-radius: 50%;
-   text-align: center;
-   justify-content: center;
 }
 
 
@@ -144,13 +190,14 @@ body{
 
 
 .end{
-    background-color: #f3551aa6;
-    color: #BB603E ;
+    background-color: #d35c30a6;
+    color: #76422e ;
     text-align: center;
 }
 .end p{
     margin-bottom: 0;
     padding: 0 5px;
+    font-size: 14px;
 }
 
 
@@ -196,14 +243,276 @@ body{
 }
 .menu-list h6{
     font-size: 12px;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 .menu-list p{
     font-weight: 600;;
-    padding-top: 12px;
+    padding-top: 5px;
 }
 
 .menu-list span{
     font-weight: 500;
     font-size: 12px;
 }
+
+
+
+  /*---------- deatils section style --------*/
+
+.details{
+    padding: 80px 0;
+    background-color: #EADDCA;
+}
+.details-img img{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.details-list-items{
+    border-right: 2px solid #C95529;
+}
+.details-list-items ul li{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+.active{
+    color: #8B0000;
+    border-right: 2px solid #8B0000;
+    position: relative;
+    left: 2px;
+}
+
+
+.review-items p{
+    line-height: 25px;
+    word-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.review-list-items ul li{
+    list-style-type: none;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.review-list-items ul li b{
+    padding-right: 6px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+  /*---------- deatils section style end ----------*/
+
+
+  /*---------- making style --------*/
+
+.making{
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) , url("https://specialtybakery.files.wordpress.com/2015/11/bread-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.making-play{
+    position: relative;
+}
+.making .making-play button{
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color:#fff;
+    background-color: #b5522c;
+    font-size: 20px;  
+    position: absolute;
+    top: 180px;
+}
+
+
+  /*---------- making style end --------*/
+
+
+
+
+
+          /*---------- bread section style start --------*/
+
+.bread-section{
+    background-color: #EADDCA;
+    padding: 80px 0;
+}
+.bread-list img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.bread p{
+    margin-bottom: 0;
+}
+.bread-list h6{
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.bread-list p{
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+.bread-list span{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+          /*---------- bread section style end --------*/
+
+
+     /*--------- sponsers section style start ------*/
+
+.sponsers{
+    background-color: #fff;
+    padding: 80px 0;
+}
+.sponsers-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 0 8px;
+}
+
+
+     /*--------- sponsers section style end ------*/
+
+
+
+
+        /*--------- client section style start ------*/
+
+.client{
+    padding: 90px 0;
+}
+
+.client-image{
+    border-right: 1px solid rgb(40 31 30 / 40%);
+}
+.client-image img{
+    width: 70%;
+    height: 100%;
+}
+
+
+.client-words p{
+    font-size: 15px;
+    word-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.client-words span{
+    font-size: 14px;
+}
+.client-words i{
+    font-size: 30px;
+    color: #FDDA0D;
+}
+.c-icon{
+    opacity: 0.3;
+}
+.c-image-b{
+    font-size: 40px;
+    color: #C95529;
+    position: relative;
+    left: 50px;
+}
+
+        /*--------- client section style end ------*/
+        
+
+
+
+     /*--------- news section style start ------*/
+
+.news{
+    background-color: #EADDCA;
+    padding: 100px 0;
+}
+.news-img{
+    border-right: 1px solid rgb(40 31 30 / 40%);
+    position: relative;
+}
+.news-icon{
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    font-size: 30px;
+    color: rgb(40 31 30 / 40%);
+
+}
+.news-img img{
+    width: 80%;
+    height: 80%;
+}
+.click-on{
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #76422e;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.news-content{
+    padding-left: 30px;
+}
+.news-content span{
+    font-size: 12px;
+}
+.news-content h4{
+      padding-top: 20px;
+      padding-bottom: 5px;
+}
+.news-content p{
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+.second-box{
+    padding-top: 110px;
+}
+.news-img1{
+    border-left: 1px solid rgb(40 31 30 / 40%);
+    position: relative;
+}
+.news-img1 img{
+    width: 80%;
+    height: 80%;
+}
+.news-icon1{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 30px;
+    color: rgb(40 31 30 / 40%);
+}
+
+
+.news-content1 span{
+    font-size: 12px;
+}
+.news-content1 h4{
+      padding-top: 20px;
+      padding-bottom: 5px;
+}
+.news-content1 p{
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+     /*--------- news section style end ------*/
